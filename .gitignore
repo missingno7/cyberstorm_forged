@@ -1,0 +1,5 @@
+/assets/
+/artifacts/
+__pycache__/
+*.pyc
+
