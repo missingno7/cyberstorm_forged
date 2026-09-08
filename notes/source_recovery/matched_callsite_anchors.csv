@@ -1,0 +1,20 @@
+source_file,line_number,diagnostic,june_callsite,gog_callsite,june_target,gog_target,status
+graph\gfx\g_cds.c,114,GFXCDSSurface::create: Failed to create a surface.,0x0047AF60,0x00480B60,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+graph\gfx\g_cds.c,210,GFXCDSSurface::setPalette: start out of range.,0x0047B04B,0x00480C4B,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+graph\gfx\g_cds.c,212,GFXCDSSurface::setPalette: count out of range.,0x0047B075,0x00480C75,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+graph\gfx\g_cds.c,214,GFXCDSSurface::setPalette: start+count out of range.,0x0047B0A1,0x00480CA1,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+io\resource.c,331,Invalid data,0x00476E03,0x0047CA03,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+io\resource.c,334,Ran out of memory or disk space.  Try clearing more disk space and running again.,0x00476E28,0x0047CA28,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+io\resource.c,363,Ran out of memory or disk space.  Try clearing more disk space and running again.,0x00476F04,0x0047CB04,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+io\resource.c,81,Unable to open game data file!,0x00476A91,0x0047C691,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+logic\intel.c,674,Unknown Target,0x0046291A,0x0046764E,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+logic\lactor.c,224,Unknown Test,0x0045F2EF,0x00463F9F,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+logic\lsys.c,268,message too long,0x0046613C,0x0046B0D0,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+logic\sinterp.c,1292,unknown function,0x00464942,0x00469676,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+logic\sinterp.c,1351,unknown function,0x004649DF,0x00469713,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+logic\sinterp.c,1406,bad opcode,0x00464C78,0x004699AC,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+logic\sinterp.c,269,Unknown Target,0x0046335A,0x0046808E,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+logic\sinterp.c,404,Infinite Loop!,0x004637DB,0x0046850F,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+logic\sinterp.c,57,old script -- remake,0x00462CA6,0x004679DA,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+shell\hercbuy.c,785,no text for purchase window,0x00416D22,0x00417816,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity
+shell\missbrf.c,68,mission number > MAX_CAMPAIGNS,0x004146EA,0x004151DE,0x00477920,0x0047D5A0,unique exact source-line-message diagnostic callsite anchor; not a function identity

@@ -1,0 +1,2 @@
+canonical_id,address,source_file,line_min,line_max,explicit_name_if_any,confidence,evidence
+DIAG_00477920,0x00477920,,,,,strong,Decoded representative cdecl callsite plus 214 accepted source-line-message neighborhoods.

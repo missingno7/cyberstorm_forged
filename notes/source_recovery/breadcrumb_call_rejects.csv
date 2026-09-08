@@ -1,0 +1,7 @@
+build,source_file,xref_address,reason
+june_legacy,logic\sinterp.c,0x00463267,"does not meet contiguous push message; push immediate line; push source; call known dispatcher; add esp,0xC pattern"
+june_legacy,logic\sinterp.c,0x00464267,"does not meet contiguous push message; push immediate line; push source; call known dispatcher; add esp,0xC pattern"
+june_legacy,debug\assert.c,0x00477892,"does not meet contiguous push message; push immediate line; push source; call known dispatcher; add esp,0xC pattern"
+gog_candidate,logic\sinterp.c,0x00467F9B,"does not meet contiguous push message; push immediate line; push source; call known dispatcher; add esp,0xC pattern"
+gog_candidate,logic\sinterp.c,0x00468F9B,"does not meet contiguous push message; push immediate line; push source; call known dispatcher; add esp,0xC pattern"
+gog_candidate,debug\assert.c,0x0047D512,"does not meet contiguous push message; push immediate line; push source; call known dispatcher; add esp,0xC pattern"

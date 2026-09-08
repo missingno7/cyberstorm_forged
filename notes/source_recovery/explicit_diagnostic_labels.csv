@@ -1,0 +1,9 @@
+build,scope_label,source_file,line_number,callsite,status
+june_legacy,GFXCDSSurface::create,graph\gfx\g_cds.c,114,0x0047AF60,diagnostic-text label; not assigned as an enclosing function name
+june_legacy,GFXCDSSurface::setPalette,graph\gfx\g_cds.c,210,0x0047B04B,diagnostic-text label; not assigned as an enclosing function name
+june_legacy,GFXCDSSurface::setPalette,graph\gfx\g_cds.c,212,0x0047B075,diagnostic-text label; not assigned as an enclosing function name
+june_legacy,GFXCDSSurface::setPalette,graph\gfx\g_cds.c,214,0x0047B0A1,diagnostic-text label; not assigned as an enclosing function name
+gog_candidate,GFXCDSSurface::create,graph\gfx\g_cds.c,114,0x00480B60,diagnostic-text label; not assigned as an enclosing function name
+gog_candidate,GFXCDSSurface::setPalette,graph\gfx\g_cds.c,210,0x00480C4B,diagnostic-text label; not assigned as an enclosing function name
+gog_candidate,GFXCDSSurface::setPalette,graph\gfx\g_cds.c,212,0x00480C75,diagnostic-text label; not assigned as an enclosing function name
+gog_candidate,GFXCDSSurface::setPalette,graph\gfx\g_cds.c,214,0x00480CA1,diagnostic-text label; not assigned as an enclosing function name

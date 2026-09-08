@@ -50,3 +50,24 @@ separate from the June binary's value as a semantic evidence source.
 
 Game runs remain paused after operator-reported desktop input latency during
 Icy Tower carrier runs. Static parsing does not execute either CyberStorm image.
+
+## First static result
+
+The [semantic recovery report](notes/source_recovery/semantic_recovery_report.md)
+records 140 June source paths, 214 diagnostic landmarks across 61 files, and
+19 exact cross-build diagnostic anchors. The GOG input has 145 source paths
+and 222 accepted diagnostic landmarks. These are callsite observations;
+enclosing caller functions and whole-function cross-build identities remain
+unresolved. The [independent ABI review](notes/source_recovery/assert_abi_review.md)
+records the decisive instruction samples.
+
+Reproduce from this repository with Python 3 and GNU objdump:
+
+```powershell
+& 'C:\msys64\mingw64\bin\python.exe' tools/extract_breadcrumbs.py --june assets/legacy/CSTORM.EXE --gog assets/CSTORM.EXE --out notes/source_recovery
+& 'C:\msys64\mingw64\bin\python.exe' tests/test_extract_breadcrumbs.py
+```
+
+Use `--objdump <path>` to select another installation. Both input hashes must
+match before decoding; a different build needs a reviewed diagnostic policy.
+See [the handover](notes/HANDOVER.md) for the next bounded recovery step.
