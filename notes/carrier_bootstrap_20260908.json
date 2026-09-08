@@ -1,0 +1,113 @@
+{
+  "run": "artifacts/carrier_bootstrap_20260908/run3.json",
+  "started_utc": "2026-09-08T16:08:51.879219Z",
+  "elapsed_seconds": 15.139,
+  "target_sha256": "b9d950fe3682885943ae1e7fe1b68a1b1e7b9b0c6d44fa426459eb879965b181",
+  "observer_sha256": "62953204499a950d9af06b56950eedd1852fb1853b625e13328535df4ac016bc",
+  "attach_sha256": "4e348d5abef92e57f6db4bb7941a7f4027c91a81f0fc3b54457ed33073123c53",
+  "report_sha256": "07da59f72ed8ae99ff64ee002a35ee66c04c9a74c65680ef9a8798399f883b0b",
+  "observer_log_sha256": "5dbbf4201cef8750b9b580242e864509a337ee2c838d1d5d4a5bd9e46ad68a1b",
+  "controller_sha256": "3fbd76d11d077bcbc7f9cbed2e0426bab649ff6b9b0553f624fcfa80dd1da962",
+  "port_forge": "223ac21",
+  "result": "deadline_expired",
+  "termination": "bounded_termination",
+  "observer_ready": true,
+  "attach_exit_code": 0,
+  "owned_job_active_after_cleanup": 0,
+  "attach_job_active_after_cleanup": 0,
+  "baseline_display_modes": [
+    "\\\\.\\DISPLAY1|3840x2160|32|60|0",
+    "\\\\.\\DISPLAY2|3840x2160|32|240|0"
+  ],
+  "final_display_modes": [
+    "\\\\.\\DISPLAY1|3840x2160|32|60|0",
+    "\\\\.\\DISPLAY2|3840x2160|32|240|0"
+  ],
+  "display_modes_restated_unchanged": true,
+  "visible_windows": [
+    {
+      "hwnd": 6821802,
+      "title": "CyberStorm          ",
+      "style": 348651520,
+      "exstyle": 256,
+      "client_width": 792,
+      "client_height": 572,
+      "visible": true
+    }
+  ],
+  "last_process_sample": {
+    "pid": 69764,
+    "priority": 8,
+    "start_utc": "2026-09-08T16:08:52.6661328Z",
+    "cpu_seconds": 1.016,
+    "responding": true
+  },
+  "import_slot_count": 162,
+  "hook_records": [
+    "hook_install name=GetProcAddress prior_target=10095E60 result=installed",
+    "hook_install name=LoadLibraryA prior_target=10095DE0 result=installed",
+    "hook_install name=GetProcAddress prior_target=10095E60 result=installed",
+    "hook_install name=LoadLibraryA prior_target=10095DE0 result=installed"
+  ],
+  "readiness": [
+    "observer=ready pid=69764 inventory=complete hooks_installed=4"
+  ],
+  "observed_dynamic_calls": [
+    "LoadLibraryA path=DSOUND.DLL result=50010000 gle=87",
+    "GetProcAddress module=50010000 name=DirectSoundCreate result=5003CEA0 gle=87"
+  ],
+  "initial_loaded_module_names": [
+    "CSTORM.EXE",
+    "ntdll.dll",
+    "KERNEL32.DLL",
+    "KERNELBASE.dll",
+    "GDI32.dll",
+    "win32u.dll",
+    "_INMM.dll",
+    "gdi32full.dll",
+    "USER32.dll",
+    "msvcp_win.dll",
+    "ucrtbase.dll",
+    "libvorbisfile.dll",
+    "WINMM.dll",
+    "libvorbis.dll",
+    "IMM32.DLL",
+    "dxwnd.dll",
+    "ADVAPI32.dll",
+    "msvcrt.dll",
+    "sechost.dll",
+    "RPCRT4.dll",
+    "SHELL32.dll",
+    "VERSION.dll",
+    "ole32.dll",
+    "combase.dll",
+    "OLEAUT32.dll",
+    "psapi.dll",
+    "uxtheme.dll",
+    "MSCTF.dll",
+    "kernel.appcore.dll",
+    "bcryptPrimitives.dll",
+    "textinputframework.dll",
+    "CoreMessaging.dll",
+    "CoreUIComponents.dll",
+    "wintypes.dll",
+    "CRYPTBASE.DLL",
+    "cwarsdll.dll",
+    "comdlg32.dll",
+    "shcore.dll",
+    "SHLWAPI.dll",
+    "WINSPOOL.DRV",
+    "COMCTL32.dll",
+    "cfgmgr32.dll",
+    "DWrite.dll",
+    "cs_observer.dll",
+    "VCRUNTIME140.dll"
+  ],
+  "proof_limits": [
+    "No gameplay input or screenshots",
+    "No deterministic replay or snapshot proof",
+    "No recovered game function bindings",
+    "Late attach can miss startup calls",
+    "Display modes sampled about once per second; no input-latency trace"
+  ]
+}

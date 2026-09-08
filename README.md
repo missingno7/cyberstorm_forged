@@ -1,7 +1,9 @@
 # MissionForce: CyberStorm reconstruction
 
-Static source-breadcrumb recovery is the current first step. No CyberStorm
-carrier or recovered game implementation has been verified here.
+Static source-breadcrumb recovery and a first windowed native carrier bootstrap
+are available. The bootstrap attaches an observer to the original GOG process
+under DxWnd; deterministic replay and recovered game bindings remain unfinished.
+See [carrier setup](carrier/README.md) and [runtime evidence](notes/carrier_bootstrap_20260908.md).
 
 ## Inputs
 
@@ -22,10 +24,12 @@ retained source landmarks, not a complete debug database or recovered C source.
 ## Framework
 
 `port_forge` is pinned to main commit
-`fceedbc2d4188ebfa7cf1160e6b14ceb697317ff`, published on 2026-09-08.
+`223ac21` (full identity in the gitlink), published on 2026-09-08.
 It includes the Icy Tower work on rejecting empty digest evidence, generated
 binding capacity, and constant-only library include routing, merged with the
-then-current upstream main. The three focused Win32 test scripts and seven
+then-current upstream main. It also shares native process ownership between
+Icy Tower and CyberStorm and records that experimental replay formats need no
+backward compatibility. The three focused Win32 test scripts and seven
 framework structure/documentation/schema checks passed on the merged tree.
 
 Initialize the framework with `git submodule update --init --recursive`.
@@ -48,8 +52,9 @@ must preserve ambiguity; neither source-path equality nor one diagnostic proves
 function equivalence. Runtime behavior and modern-host compatibility remain
 separate from the June binary's value as a semantic evidence source.
 
-Game runs remain paused after operator-reported desktop input latency during
-Icy Tower carrier runs. Static parsing does not execute either CyberStorm image.
+The operator subsequently authorized bounded CyberStorm runs through the existing
+windowed DxWnd profile, without automated gameplay input. Icy Tower's separate
+desktop-latency investigation remains open. Static parsing executes neither image.
 
 ## First static result
 

@@ -1,0 +1,4 @@
+LIBRARY cs_observer_fixture_provider
+EXPORTS
+    cs_fixture_named @1
+    cs_fixture_ordinal @7 NONAME

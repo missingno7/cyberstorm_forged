@@ -1,4 +1,26 @@
-# CyberStorm static recovery handover — 2026-09-08
+# CyberStorm recovery handover — 2026-09-08
+
+## Runtime continuation (supersedes the execution pause below for CyberStorm)
+
+Model policy: GPT-6 Astra is reserved for the primary supervisor's
+orchestration, review and integration work. Every implementation or test task
+must be delegated explicitly to a `gpt-5.6-terra` or `gpt-5.6-luna` subagent;
+subagents must never inherit the supervisor's model. A status listing does not
+prove the resolved model.
+
+The operator later authorized building/running a windowed bootstrap through the
+existing DxWnd profile, with gameplay recording reserved for the operator.
+Read [the bootstrap report](carrier_bootstrap_20260908.md) and
+[carrier setup](../carrier/README.md) first. The final bounded run reached
+observer readiness, inventoried 162 IAT slots, forwarded real DirectSound loader
+calls and emptied both process jobs. Replay, snapshots and replacement bindings
+are still unimplemented. No original assets or installed DxWnd config changed.
+
+PortForge main is now published at `223ac21`; both projects use its shared native
+process helper. Replay backward compatibility is explicitly unnecessary during
+Win32 development. Do not add migration paths to preserve old recordings.
+Icy Tower execution remains paused independently; its unfinished changes and
+batch-15 proof gaps were preserved. The historical static-only record follows.
 
 The operator requested publishing the ready PortForge work and continuing from
 the newly supplied original CyberStorm binary. PortForge main was merged without
